@@ -58,6 +58,13 @@ In the main directory, you can use the *exec.sh* script to run the test scripts.
 ./exec.sh <test_script> <ethereum_network>
 ```
 
+## How to run experiments to retrieve the blockchain data
+
+Start the *testrpc* network, then run the following command:
+```
+./ml/gen_all.sh
+```
+
 ## Build and test environment
 
 + Build and test: 
